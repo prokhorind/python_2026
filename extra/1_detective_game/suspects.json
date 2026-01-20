@@ -80,6 +80,206 @@
       "location": "school",
       "logged_in": true,
       "login_time": "22:05"
+    },
+    {
+      "name": "Artem",
+      "age": 17,
+      "alibi": false,
+      "access_level": 2,
+      "device": "phone",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:20"
+    },
+    {
+      "name": "Polina",
+      "age": 18,
+      "alibi": true,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "home",
+      "logged_in": true,
+      "login_time": "21:40"
+    },
+    {
+      "name": "Vladyslav",
+      "age": 19,
+      "alibi": false,
+      "access_level": 4,
+      "device": "desktop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:48"
+    },
+    {
+      "name": "Nazar",
+      "age": 16,
+      "alibi": false,
+      "access_level": 1,
+      "device": "tablet",
+      "location": "school",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Iryna",
+      "age": 18,
+      "alibi": true,
+      "access_level": 5,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:55"
+    },
+    {
+      "name": "Denys",
+      "age": 17,
+      "alibi": false,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "library",
+      "logged_in": true,
+      "login_time": "21:37"
+    },
+    {
+      "name": "Oksana",
+      "age": 19,
+      "alibi": false,
+      "access_level": 4,
+      "device": "phone",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "22:10"
+    },
+    {
+      "name": "Mykhailo",
+      "age": 18,
+      "alibi": true,
+      "access_level": 2,
+      "device": "desktop",
+      "location": "home",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Tetiana",
+      "age": 17,
+      "alibi": false,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Oleksii",
+      "age": 18,
+      "alibi": false,
+      "access_level": 5,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "23:00"
+    },
+    {
+      "name": "Kseniia",
+      "age": 16,
+      "alibi": true,
+      "access_level": 1,
+      "device": "phone",
+      "location": "home",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Yaroslav",
+      "age": 19,
+      "alibi": false,
+      "access_level": 4,
+      "device": "laptop",
+      "location": "cafe",
+      "logged_in": true,
+      "login_time": "21:42"
+    },
+    {
+      "name": "Alina",
+      "age": 17,
+      "alibi": true,
+      "access_level": 3,
+      "device": "tablet",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:33"
+    },
+    {
+      "name": "Serhii",
+      "age": 18,
+      "alibi": false,
+      "access_level": 2,
+      "device": "desktop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:31"
+    },
+    {
+      "name": "Liliia",
+      "age": 16,
+      "alibi": true,
+      "access_level": 2,
+      "device": "phone",
+      "location": "home",
+      "logged_in": true,
+      "login_time": "21:50"
+    },
+    {
+      "name": "Borys",
+      "age": 19,
+      "alibi": false,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "20:55"
+    },
+    {
+      "name": "Nadiia",
+      "age": 18,
+      "alibi": true,
+      "access_level": 4,
+      "device": "laptop",
+      "location": "library",
+      "logged_in": true,
+      "login_time": "21:46"
+    },
+    {
+      "name": "Illia",
+      "age": 17,
+      "alibi": false,
+      "access_level": 1,
+      "device": "tablet",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:29"
+    },
+    {
+      "name": "Viktoriia",
+      "age": 18,
+      "alibi": false,
+      "access_level": 5,
+      "device": "desktop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:58"
+    },
+    {
+      "name": "Stepan",
+      "age": 19,
+      "alibi": true,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "home",
+      "logged_in": false,
+      "login_time": null
     }
   ]
 }
