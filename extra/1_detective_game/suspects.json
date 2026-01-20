@@ -1,0 +1,85 @@
+{
+  "case_id": "SCHOOL-DB-042",
+  "suspects": [
+    {
+      "name": "Alex",
+      "age": 17,
+      "alibi": false,
+      "access_level": 3,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:43"
+    },
+    {
+      "name": "Maria",
+      "age": 18,
+      "alibi": true,
+      "access_level": 2,
+      "device": "phone",
+      "location": "home",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Dmytro",
+      "age": 16,
+      "alibi": false,
+      "access_level": 1,
+      "device": "tablet",
+      "location": "school",
+      "logged_in": false,
+      "login_time": null
+    },
+    {
+      "name": "Olena",
+      "age": 19,
+      "alibi": false,
+      "access_level": 4,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:39"
+    },
+    {
+      "name": "Ihor",
+      "age": 18,
+      "alibi": false,
+      "access_level": 3,
+      "device": "desktop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "20:10"
+    },
+    {
+      "name": "Sofia",
+      "age": 17,
+      "alibi": true,
+      "access_level": 5,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "21:50"
+    },
+    {
+      "name": "Andrii",
+      "age": 18,
+      "alibi": false,
+      "access_level": 2,
+      "device": "phone",
+      "location": "cafe",
+      "logged_in": true,
+      "login_time": "21:41"
+    },
+    {
+      "name": "Kateryna",
+      "age": 17,
+      "alibi": false,
+      "access_level": 4,
+      "device": "laptop",
+      "location": "school",
+      "logged_in": true,
+      "login_time": "22:05"
+    }
+  ]
+}
