@@ -23,7 +23,6 @@ movies.append(new_movie)
 remove_movie = input("Який фільм видалити? ")
 # TODO: Видали фільм зі списку (якщо він є)
 if remove_movie in movies:
-    movies.remove(remove_movie)
     print(f"Фільм '{remove_movie}' видалено")
 else:
     print("Такого фільму немає у списку")
