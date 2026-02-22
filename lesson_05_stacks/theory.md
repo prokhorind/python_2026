@@ -137,42 +137,8 @@ display_stack(book_stack)
 
 ### 4. Практичні застосування стеків
 
-#### 4.1 Перевірка збалансованості дужок
 
-```python
-def check_brackets(expression):
-    """Перевіряє, чи збалансовані дужки у виразі"""
-    stack = []
-    opening = "([{"
-    closing = ")]}"
-    pairs = {"(": ")", "[": "]", "{": "}"}
-    
-    for char in expression:
-        if char in opening:
-            stack.append(char)
-        elif char in closing:
-            if not stack:
-                return False
-            if pairs[stack.pop()] != char:
-                return False
-    
-    return len(stack) == 0
-
-# Тестування
-expressions = [
-    "(2 + 3) * 4",      # True
-    "[(1 + 2) * 3]",    # True  
-    "((()))",           # True
-    "([)]",             # False
-    "(((",              # False
-]
-
-for expr in expressions:
-    result = check_brackets(expr)
-    print(f"'{expr}' - {'збалансовано' if result else 'не збалансовано'}")
-```
-
-#### 4.2 Обернення рядка
+#### 4.1 Обернення рядка
 
 ```python
 def reverse_string(text):
@@ -213,7 +179,7 @@ print(f"Оригінальне речення: {sentence}")
 print(f"Обернені слова: {reverse_words(sentence)}")
 ```
 
-#### 4.3 Калькулятор з постфіксним записом
+#### 4.2 Калькулятор з постфіксним записом
 
 ```python
 def evaluate_postfix(expression):
