@@ -78,12 +78,3 @@ result1 = analyze_grades("Марія", 10, 9, 11, 8, 10)
 print(f"Аналіз оцінок: {result1}")
 
 print("\n" + "="*40 + "\n")
-
-# Тест 2: Створення звіту
-report = create_report(
-    name="Олексій Петренко",
-    age=16,
-    class="10-А",
-    grades=[9, 8, 10, 7, 9, 11]
-)
-print(report)

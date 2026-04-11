@@ -1,25 +1,25 @@
 # Реалізація стеку за допомогою list
 
-stack = []
+numbers = []
 
 # push
-stack.append(10)
-stack.append(20)
-stack.append(30)
+numbers.append(10)
+numbers.append(20)
+numbers.append(30)
 
-print("Стек після додавання:", stack)
+print("Стек після додавання:", numbers)
 
 # peek
-print("Верхній елемент:", stack[-1])
+print("Верхній елемент:", numbers[-1])
 
 # pop
-removed = stack.pop()
+removed = numbers.pop(0)
 print("Видалений елемент:", removed)
 
-print("Стек зараз:", stack)
+print("Стек зараз:", numbers)
 
 # перевірка на порожність
-if not stack:
+if not numbers:
     print("Стек порожній")
 else:
     print("Стек не порожній")

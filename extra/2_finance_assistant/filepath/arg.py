@@ -1,4 +1,4 @@
-#python arg.py finance.xlsx
+#python arg.py ../expenses.xlsx
 import sys
 import pandas as pd
 
