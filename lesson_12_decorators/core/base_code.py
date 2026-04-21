@@ -5,10 +5,9 @@ def logger(func):
     # TODO: реалізувати декоратор
     def wrapper(*args, **kwargs):
         print(f"Function: {func.__name__}")
-        print(f"Args: {args} {kwargs}")
-
-        result = func(*args, **kwargs)
-
+        start = time.perf_counter()
+        result = func(*args)
+        print(f"Time: {(start) * 1000:.6f} ms")
 
 def add(a, b):
     return a + b
