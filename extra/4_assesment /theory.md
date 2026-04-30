@@ -14,29 +14,25 @@
 
 ---
 
-Запис у файл:
-    file.write("кава,50\n")
+    file.write("кава,50\n") #Запис у файл:
     file.close()
 
 ---
 
-Читання файлу:
-    file = open("expenses.txt", "r")
+    file = open("expenses.txt", "r") #Читання файлу:
     lines = file.readlines()
     file.close()
 
 ---
 
-## 🔁 2. Цикли
+## 🔁 2. Цикли :
 
-Нескінченний цикл:
-    while True:
+    while True: #Нескінченний цикл
         print("Меню")
 
 ---
 
-Перебір списку:
-    for line in lines:
+    for line in lines: #Перебір списку:
         print(line)
 
 ---
@@ -44,9 +40,7 @@
 ## 📋 3. Списки
 
     expenses = []
-
-Додавання:
-    expenses.append("кава,50")
+    expenses.append("кава,50") #Додавання:
 
 ---
 
@@ -67,37 +61,30 @@
 
 ## ✂️ 6. Робота з рядками
 
-Розділення:
-    name, amount = line.split(",")
-
-Видалення переносу:
-    line = line.strip()
+    name, amount = line.split(",") #Розділення:
+    line = line.strip() #Видалення переносу:
 
 ---
 
 ## 🖼️ 7. Основи Tkinter
 
-Імпорт:
-    from tkinter import *
+    from tkinter import * #Імпорт:
 
-Створення вікна:
-    root = Tk()
+    root = Tk() 
     root.title("Трекер витрат")
-    root.geometry("300x400")
+    root.geometry("300x400") 
+    #Створення вікна:
 
 ---
 
-Поле вводу:
-    entry = Entry(root)
+    entry = Entry(root) #Поле вводу:
     entry.pack()
 
-Отримання тексту:
-    text = entry.get()
+    text = entry.get() #Отримання тексту:
 
 ---
 
-Кнопка:
-    def add_expense():
+    def add_expense(): #Кнопка:
         print("Додано")
 
     btn = Button(root, text="Додати", command=add_expense)
@@ -105,17 +92,14 @@
 
 ---
 
-Список (Listbox):
-    listbox = Listbox(root)
+    listbox = Listbox(root) #Список (Listbox):
     listbox.pack()
 
-Додати елемент:
-    listbox.insert(END, "кава - 50 грн")
+    listbox.insert(END, "кава - 50 грн") #Додати елемент:
 
-Очистити список:
-    listbox.delete(0, END)
+
+    listbox.delete(0, END) #Очистити список:
 
 ---
 
-Запуск програми:
-    root.mainloop()
+    root.mainloop() #Запуск програми:
